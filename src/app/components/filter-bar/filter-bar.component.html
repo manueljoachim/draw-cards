@@ -1,0 +1,74 @@
+<div id="filter-bar">
+    <div class="filter-item">
+        <label for="suit">Suit:</label>
+        <select
+            class= "ui dropdown"    
+            name="suit"
+            (change)="setSuitFilter( $event.target.value)">
+            <option value=""></option>
+            <option value="S">Spades</option>
+            <option value="H">Hearts</option>
+            <option value="C">Cloves</option>
+            <option value="D">Diamonds</option>
+        </select>
+    </div>
+    <div class="filter-item ui input">
+        <label for="num-of-cards">Max Number of Cards in Hand:</label>
+        <input
+            (change)="setCardsNumFilter( $event.target.value)" 
+            type="number" 
+            name="num-of-cards" 
+            min="1" 
+            max="52" 
+            value="52">
+    </div>
+    <div class="filter-item">
+        <label for="max-card-value">Max Card Value:</label>
+        <select
+            class= "ui dropdown"
+            name="max-card-value" 
+            (change)="setMaxCardValueFilter( $event.target.value )">
+            <option value="1">Ace</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+            <option value="6">Six</option>
+            <option value="7">Seven</option>
+            <option value="8">Eight</option>
+            <option value="9">Nine</option>
+            <option value="10">Ten</option>
+            <option value="11">Jack</option>
+            <option value="12">Queen</option>
+            <option value="13" selected>King</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <label for="suit">Min Card Value:</label>
+        <select
+            class= "ui dropdown"    
+            name="min-card-value"
+            (change)="setMinCardValueFilter( $event.target.value )">
+            <option value="1" selected>Ace</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+            <option value="6">Six</option>
+            <option value="7">Seven</option>
+            <option value="8">Eight</option>
+            <option value="9">Nine</option>
+            <option value="10">Ten</option>
+            <option value="11">Jack</option>
+            <option value="12">Queen</option>
+            <option value="13">King</option>
+        </select>
+    </div>
+
+    <div class="filter-item">
+        <button
+            class="ui primary button"
+            (click)="draw( $event )">DRAW</button>
+    </div>
+</div>
+

@@ -1,0 +1,65 @@
+.card {
+    font-size: 150px;
+    line-height: 150px;
+}
+
+.card.h, .card.d {
+    color: red;
+}
+
+//spades
+.u1F0A1::before { content:"\1F0A1" }
+.u1F0A2::before { content:"\1F0A2" }
+.u1F0A3::before { content:"\1F0A3" }
+.u1F0A4::before { content:"\1F0A4" }
+.u1F0A5::before { content:"\1F0A5" }
+.u1F0A6::before { content:"\1F0A6" }
+.u1F0A7::before { content:"\1F0A7" }
+.u1F0A8::before { content:"\1F0A8" }
+.u1F0A9::before { content:"\1F0A9" }
+.u1F0AA::before { content:"\1F0AA" }
+.u1F0AB::before { content:"\1F0AB" }
+.u1F0AD::before { content:"\1F0AD" }
+.u1F0AE::before { content:"\1F0AE" }
+//hearts
+.u1F0B1::before { content:"\1F0B1" }
+.u1F0B2::before { content:"\1F0B2" }
+.u1F0B3::before { content:"\1F0B3" }
+.u1F0B4::before { content:"\1F0B4" }
+.u1F0B5::before { content:"\1F0B5" }
+.u1F0B6::before { content:"\1F0B6" }
+.u1F0B7::before { content:"\1F0B7" }
+.u1F0B8::before { content:"\1F0B8" }
+.u1F0B9::before { content:"\1F0B9" }
+.u1F0BA::before { content:"\1F0BA" }
+.u1F0BB::before { content:"\1F0BB" }
+.u1F0BD::before { content:"\1F0BD" }
+.u1F0BE::before { content:"\1F0BE" }
+//cloves
+.u1F0D1::before { content:"\1F0D1" }
+.u1F0D2::before { content:"\1F0D2" }
+.u1F0D3::before { content:"\1F0D3" }
+.u1F0D4::before { content:"\1F0D4" }
+.u1F0D5::before { content:"\1F0D5" }
+.u1F0D6::before { content:"\1F0D6" }
+.u1F0D7::before { content:"\1F0D7" }
+.u1F0D8::before { content:"\1F0D8" }
+.u1F0D9::before { content:"\1F0D9" }
+.u1F0DA::before { content:"\1F0DA" }
+.u1F0DB::before { content:"\1F0DB" }
+.u1F0DD::before { content:"\1F0DD" }
+.u1F0DE::before { content:"\1F0DE" }
+//diamonds
+.u1F0C1::before { content:"\1F0C1" }
+.u1F0C2::before { content:"\1F0C2" }
+.u1F0C3::before { content:"\1F0C3" }
+.u1F0C4::before { content:"\1F0C4" }
+.u1F0C5::before { content:"\1F0C5" }
+.u1F0C6::before { content:"\1F0C6" }
+.u1F0C7::before { content:"\1F0C7" }
+.u1F0C8::before { content:"\1F0C8" }
+.u1F0C9::before { content:"\1F0C9" }
+.u1F0CA::before { content:"\1F0CA" }
+.u1F0CB::before { content:"\1F0CB" }
+.u1F0CD::before { content:"\1F0CD" }
+.u1F0CE::before { content:"\1F0CE" }

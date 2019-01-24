@@ -1,0 +1,41 @@
+#filter-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    color: #004E89;
+
+    background: #caeff9; /* Old browsers */
+    background: -moz-linear-gradient(top, #caeff9 0%, #68c7ed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #caeff9 0%,#68c7ed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #caeff9 0%,#68c7ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caeff9', endColorstr='#68c7ed',GradientType=0 ); /* IE6-9 */
+}
+
+.filter-item {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-item label {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #004E89;
+}
+
+.filter-item .dropdown {
+    width: 100px;
+}
+
+.filter-item select,
+.filter-item .ui.input>input {
+    color:#004E89;
+}
+
+.filter-item .ui.primary.button {
+    background-color: #009ED8;
+}
